@@ -1,6 +1,15 @@
 var topic = ['Html', 'CSS', 'Git', 'javascript'];
 
-/*if (topic === 'HTML') {
+
+
+function listTopics() {
+    for (var x = 0; x < topic.length; x++ )
+    {
+        console.log(topic[x]);
+    }
+}
+
+if (topic === 'HTML') {
  console.log("Let's study HTML!");
 } else if (topic === 'CSS') {
  console.log("Let's study CSS!");
@@ -10,9 +19,4 @@ var topic = ['Html', 'CSS', 'Git', 'javascript'];
  console.log("Let's study JavaScript!");
 } else {
  console.log('Please try again!');
-}*/
-
-for (var x = 0; x < topic.length; x++ )
-    {
-        console.log(topic[x]);
-    }
+}
